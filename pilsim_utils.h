@@ -13,6 +13,12 @@ const int GEAR_TOGGLE_BUTTON = 1;
 const int FLAP_TOGGLE_BUTTON = 2;
 const int PAYL_TOGGLE_BUTTON = 3;
 
+const byte NAV     = 1;
+const byte LOITER  = 2;
+const byte LAUNCH  = 3;
+const byte LAND    = 4;
+const byte SPECIAL = 5;
+
 
 
 
