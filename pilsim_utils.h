@@ -30,6 +30,10 @@ SerialTransfer feedback;
 
 FilterOnePole lowpassFilter(LOWPASS, 0.2);
 
+dubin_mode dMode = TURN_I;
+nav_frame nFrame;
+navigator nav;
+
 
 
 
@@ -39,8 +43,6 @@ double rollCommand     = 512;
 double yawCommand      = 512;
 
 double angleOfClimb = 0;
-
-nav_state navState = TAKEOFF;
 
 int prevState = LAUNCH;
 int curState  = LAUNCH;
