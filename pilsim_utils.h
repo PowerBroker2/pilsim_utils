@@ -30,6 +30,7 @@ SerialTransfer feedback;
 
 FilterOnePole lowpassFilter(LOWPASS, 0.2);
 
+orbit_dir dir    = CLOCKWISE;
 dubin_mode dMode = TURN_I;
 nav_frame nFrame;
 navigator nav;
